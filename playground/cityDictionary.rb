@@ -21,7 +21,7 @@ end
 
 # method to display all city names
 def display_city_names(somehash)
-  somehash.each { |k, _v| puts k.capitalize }
+  somehash.each_key { |k, _v| puts k.capitalize }
 end
 
 # input section
